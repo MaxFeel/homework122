@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">homework1.2.2</string>
+    <string name="next">Вперед</string>
+    <string name="back">Назад</string>
+    <string name="link">http://myfile.org/</string>
 </resources>
