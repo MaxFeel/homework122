@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         btnNext.setOnClickListener(nextListner);
 
         Button btnPrev = findViewById(R.id.btnPrev);
+        btnPrev.setOnClickListener(prevListner);
 
     }
 
@@ -38,8 +39,6 @@ public class MainActivity extends AppCompatActivity {
     private final View.OnClickListener prevListner = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            //Intent prevScreen = new Intent(this, MainActivity.class);
-            //startActivity(prevScreen);
             finish();
         }
     };
